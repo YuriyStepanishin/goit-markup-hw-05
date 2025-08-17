@@ -610,15 +610,14 @@ button {
   background-color: #404bbf;
   border: none;
 }
-.modal-close-icon:hover,
-.modal-close-icon:focus {
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
   fill: #fff;
 }
 .modal-container {
-  display: flex;
-  flex-direction: column;
+  display: block;
+
   padding: 72px 24px 24px 24px;
-  gap: 8px;
 }
 
 .modal-title {
@@ -638,6 +637,7 @@ button {
 }
 .modal-forms-item {
   margin-top: 4px;
+  margin-bottom: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 38px 8px;
