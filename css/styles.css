@@ -567,6 +567,9 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
+  display: block;
+
+  padding: 72px 24px 24px 24px;
 
   border-radius: 4px;
   width: 408px;
@@ -613,11 +616,6 @@ button {
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: #fff;
-}
-.modal-container {
-  display: block;
-
-  padding: 72px 24px 24px 24px;
 }
 
 .modal-title {
