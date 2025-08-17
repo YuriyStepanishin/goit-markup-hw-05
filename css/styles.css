@@ -615,13 +615,12 @@ button {
   fill: #fff;
 }
 .modal-container {
-  padding: 72px 24px 24px 24px;
-}
-.modal-forms {
   display: flex;
   flex-direction: column;
-  margin-top: 8px;
+  padding: 72px 24px 24px 24px;
+  gap: 8px;
 }
+
 .modal-title {
   font-weight: 500;
   line-height: 1.5;
@@ -632,14 +631,13 @@ button {
 }
 
 .modal-forms-item-label {
-  margin-top: 8px;
-  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 .modal-forms-item {
+  margin-top: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 38px 8px;
