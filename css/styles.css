@@ -665,7 +665,7 @@ input::placeholder {
 .modal-forms-item:focus {
   border: 1px solid #4d5ae5;
 }
-.modal-forms-item:focus svg {
+.modal-forms-item:focus + svg {
   fill: #4d5ae5;
 }
 .modal-forms-image svg {
@@ -733,7 +733,7 @@ input::placeholder {
   fill: #404bbf;
   border: none;
 }
-#user-privacy:checked ! .modal-checkbox-label .svg-check {
+#user-privacy:checked ~ .modal-checkbox-label .svg-check {
   opacity: 1;
 }
 .modal-checkbox-btn {
